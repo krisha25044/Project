@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Quiz - Soul Yatra</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="questionnaire.html">Mental Health Quiz</a></li>
+                <li><a href="meditation.html">Meditation Videos</a></li>
+                <li><a href="journaling.html">Journaling</a></li>
+                <li><a href="login.html">Login/Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="questionnaire">
+        <h2>Mental Health Questionnaire</h2>
+        <form id="quizForm">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Question</th>
+                        <th>Strongly Disagree</th>
+                        <th>Disagree</th>
+                        <th>Neutral</th>
+                        <th>Agree</th>
+                        <th>Strongly Agree</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>How often do you feel stressed?</td>
+                        <td><input type="radio" name="stress" value="Strongly Disagree"></td>
+                        <td><input type="radio" name="stress" value="Disagree"></td>
+                        <td><input type="radio" name="stress" value="Neutral"></td>
+                        <td><input type="radio" name="stress" value="Agree"></td>
+                        <td><input type="radio" name="stress" value="Strongly Agree"></td>
+                    </tr>
+                    <tr>
+                        <td>How often do you feel anxious?</td>
+                        <td><input type="radio" name="anxiety" value="Strongly Disagree"></td>
+                        <td><input type="radio" name="anxiety" value="Disagree"></td>
+                        <td><input type="radio" name="anxiety" value="Neutral"></td>
+                        <td><input type="radio" name="anxiety" value="Agree"></td>
+                        <td><input type="radio" name="anxiety" value="Strongly Agree"></td>
+                    </tr>
+                    <tr>
+                        <td>How often do you feel sad?</td>
+                        <td><input type="radio" name="sadness" value="Strongly Disagree"></td>
+                        <td><input type="radio" name="sadness" value="Disagree"></td>
+                        <td><input type="radio" name="sadness" value="Neutral"></td>
+                        <td><input type="radio" name="sadness" value="Agree"></td>
+                        <td><input type="radio" name="sadness" value="Strongly Agree"></td>
+                    </tr>
+                    <tr>
+                        <td>How often do you feel overwhelmed by your emotions?</td>
+                        <td><input type="radio" name="overwhelmed" value="Strongly Disagree"></td>
+                        <td><input type="radio" name="overwhelmed" value="Disagree"></td>
+                        <td><input type="radio" name="overwhelmed" value="Neutral"></td>
+                        <td><input type="radio" name="overwhelmed" value="Agree"></td>
+                        <td><input type="radio" name="overwhelmed" value="Strongly Agree"></td>
+                    </tr>
+                    <tr>
+                        <td>How often do you feel trouble concentrating on day to day activities </td>
+                        <td><input type="radio" name="concentration" value="Strongly Disagree"></td>
+                        <td><input type="radio" name="concentration" value="Disagree"></td>
+                        <td><input type="radio" name="concentration" value="Neutral"></td>
+                        <td><input type="radio" name="concentration" value="Agree"></td>
+                        <td><input type="radio" name="concentration" value="Strongly Agree"></td>
+                    </tr>
+                    <tr>
+                        <td>Do you feel difficulty talking about how you feel?</td>
+                        <td><input type="radio" name="difficultyTalking" value="Strongly Disagree"></td>
+                        <td><input type="radio" name="difficultyTalking" value="Disagree"></td>
+                        <td><input type="radio" name="difficultyTalking" value="Neutral"></td>
+                        <td><input type="radio" name="difficultyTalking" value="Agree"></td>
+                        <td><input type="radio" name="difficultyTalking" value="Strongly Agree"></td>
+                    </tr>
+                    <tr>
+                        <td>Have you experienced any significant changes recently?</td>
+                        <td><input type="radio" name="changes" value="Strongly Disagree"></td>
+                        <td><input type="radio" name="changes" value="Disagree"></td>
+                        <td><input type="radio" name="changes" value="Neutral"></td>
+                        <td><input type="radio" name="changes" value="Agree"></td>
+                        <td><input type="radio" name="changes" value="Strongly Agree"></td>
+                    </tr>
+                    <tr>
+                        <td>How would you rate your stress management skills? </td>
+                        <td><input type="radio" name="stressManagement" value="Strongly Disagree"></td>
+                        <td><input type="radio" name="stressManagement" value="Disagree"></td>
+                        <td><input type="radio" name="stressManagement" value="Neutral"></td>
+                        <td><input type="radio" name="stressManagement" value="Agree"></td>
+                        <td><input type="radio" name="stressManagement" value="Strongly Agree"></td>
+                    </tr>
+                    <tr>
+                        <td>Do you feel your mental health needs to be adressed more adequately by available resources? </td>
+                        <td><input type="radio" name="resources" value="Strongly Disagree"></td>
+                        <td><input type="radio" name="resources" value="Disagree"></td>
+                        <td><input type="radio" name="resources" value="Neutral"></td>
+                        <td><input type="radio" name="resources" value="Agree"></td>
+                        <td><input type="radio" name="resources" value="Strongly Agree"></td>
+                    </tr>
+                    <tr>
+                        <td>Do you feel optimistic about your future?</td>
+                        <td><input type="radio" name="optimism" value="Strongly Disagree"></td>
+                        <td><input type="radio" name="optimism" value="Disagree"></td>
+                        <td><input type="radio" name="optimism" value="Neutral"></td>
+                        <td><input type="radio" name="optimism" value="Agree"></td>
+                        <td><input type="radio" name="optimism" value="Strongly Agree"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="submit" id="submitBtn">Submit</button>
+        </form>
+        <div id="result"></div>
+    </section>
+</body>
+</html>
